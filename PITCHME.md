@@ -151,11 +151,11 @@ https://github.com/stz2012/libarib25
 ### 録画コマンド
 チューナー、ドライバによって録画コマンドが異なる。
 - recpt1 
--- https://github.com/stz2012/recpt1
+  - https://github.com/stz2012/recpt1
 - revdvb
--- https://github.com/dogeel/recdvb
+  - https://github.com/dogeel/recdvb
 - recfsusb2n
--- https://github.com/epgdatacapbon/recfsusb2n
+  - https://github.com/epgdatacapbon/recfsusb2n
 
 +++
 
@@ -167,14 +167,14 @@ $ recfsusb2n --b25 27 1800 ch27_1800.ts
 ```
 - --b25: 復号化指定
 - 録画チャンネルは物理チャンネルで指定する
--- 16: MX
--- 21: フジテレビ
--- 22: TBS
--- 23: テレ東
--- 24: テレビ朝日
--- 25: 日テレ
--- 26: NHK Eテレ
--- 27: NHK総合
+  - 16: MX
+  - 21: フジテレビ
+  - 22: TBS
+  - 23: テレ東
+  - 24: テレビ朝日
+  - 25: 日テレ
+  - 26: NHK Eテレ
+  - 27: NHK総合
 - 録画時間
 - 出力ファイル
 
