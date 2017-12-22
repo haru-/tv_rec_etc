@@ -107,18 +107,25 @@ https://www.b-cas.co.jp/cardorder/view/order/agreement.html
 +++
 #### PT3
 chardev版
+
 https://github.com/m-tsudo/pt3
 
 DBV版
+
 Linux kernel 3.18 からカーネルのメインラインに組み込み済み。
+
 chardev版ドラバを使う場合はDVB版ドライバをブラックリストに追加する
+
 +++
+
 #### PX-S1UD
 Linux kernel 3.15からカーネルのメインラインに組み込み済み。
 
 #### PX-BCUD
 Linux kernel 4.7からカーネルのメインラインに組み込み済み。
+
 +++
+
 #### さんぱくん外出 US-3POUT
 udevルール書くだけでOK
 ```
@@ -128,10 +135,13 @@ udevルール書くだけでOK
 SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTRS{idVendor}=="0511", ATTRS{idProduct}=="0045", MODE="0664", GROUP="video"
 # udevadm control --reload
 ```
+
 +++
 #### PX-W3U4
 http://www.plex-net.co.jp/product/px-w3u4/download.html
+
 +++
+
 ### libarib25
 ### 録画コマンド
 #### recpt1
