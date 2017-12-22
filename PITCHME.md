@@ -49,7 +49,7 @@ https://www.amazon.co.jp/dp/B00C3TNA2G/
 
 - インターフェース: USB
 - 地上波/BS/CS 1ch
-- 7000円くらい。在庫ないことが多いけど月末付近に復活する
+- 7000円くらい。在庫無い事が多いけど月末付近に復活する
 - 録画コマンドはrecfsusb2n
 
 +++
@@ -61,7 +61,7 @@ https://www.amazon.co.jp/dp/B01MR4SLB6/
 - インターフェース: USB
 - 地上波 2ch、BS/CS 2ch
 - 18000円くらい。
-- ドライバがCentOS6用のバイナリのみしか提供されていない
+- ドライバがCentOS 6用のバイナリのみしか提供されていない
 
 +++
 
@@ -71,7 +71,7 @@ https://www.amazon.co.jp/dp/B01MR4SLB6/
 
 +++
 
-#### ACR39-NTTCom
+#### ACR39
 https://www.amazon.co.jp/dp/B017Y8QV4O/
 
 <img src="https://images-fe.ssl-images-amazon.com/images/I/311eGtxB9yL.jpg" height="150">
