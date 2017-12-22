@@ -69,6 +69,7 @@ https://www.amazon.co.jp/dp/B01MR4SLB6/
 - e-tax用、住基カード用として売ってる
 - 2000円くらい
 
++++
 
 #### ACR39-NTTCom
 https://www.amazon.co.jp/dp/B017Y8QV4O/
