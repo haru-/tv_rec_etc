@@ -146,9 +146,34 @@ http://www.plex-net.co.jp/product/px-w3u4/download.html
 暗号化されている放送をB-CASカードを使って復号化するためのライブラリ
 https://github.com/stz2012/libarib25
 
++++
+
 ### 録画コマンド
-#### recpt1
-#### revdvb
+チューナー、ドライバによって録画コマンドが異なる。
+- recpt1 https://github.com/stz2012/recpt1
+- revdvb https://github.com/dogeel/recdvb
+- recfsusb2n https://github.com/epgdatacapbon/recfsusb2n
+
+コマンドは違うけど、使い方はほぼ同じ。
+```
+$ recpt1 --b25 27 1800 ch27_1800.ts
+$ revdvb --b25 27 1800 ch27_1800.ts
+$ recfsusb2n --b25 27 1800 ch27_1800.ts
+```
+- --b25: 復号化指定
+- 録画チャンネルは物理チャンネルで指定する
+-- 16: MX
+-- 21: フジテレビ
+-- 22: TBS
+-- 23: テレ東
+-- 24: テレビ朝日
+-- 25: 日テレ
+-- 26: NHK Eテレ
+-- 27: NHK総合
+- 録画時間
+- 出力ファイル
+
+
 ### epgdump
 ### TsSplitter
 ### ffmpeg
