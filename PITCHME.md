@@ -102,7 +102,7 @@ https://www.b-cas.co.jp/cardorder/view/order/agreement.html
 ---
 
 ## ソフトウェア
-+++
+---
 ### ドライバ
 +++
 #### PT3
@@ -178,11 +178,26 @@ $ recfsusb2n --b25 27 1800 ch27_1800.ts
 - 録画時間
 - 出力ファイル
 
-+++
+#### リアルタイム視聴
+```
+$ recpt1 --b25 --http 8888
+$ revdvb --b25 --http 8889
+```
+VLCメディアプレイヤーでネットワークを開く
+`http://host:8888/24`
+
+<img src="" height="250">
+
+---
 
 ### epgdump
+
+---
+
 ### TsSplitter
+---
 ### ffmpeg
+---
 ### assdumper
 
 ---
