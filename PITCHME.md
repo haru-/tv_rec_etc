@@ -69,16 +69,23 @@ https://www.amazon.co.jp/dp/B01MR4SLB6/
 - e-tax用、住基カード用として売ってる
 - 2000円くらい
 
+
 #### ACR39-NTTCom
 https://www.amazon.co.jp/dp/B017Y8QV4O/
 
+<img src="https://images-fe.ssl-images-amazon.com/images/I/311eGtxB9yL.jpg" height="150">
+
 #### SCR3310
 https://www.amazon.co.jp/dp/B0085H4YZC/
+
+<img src="https://images-na.ssl-images-amazon.com/images/I/81A-8IXYMzL._SL1500_.jpg" height="150">
 
 +++
 
 ### B-CASカード
 https://www.b-cas.co.jp/cardorder/view/order/agreement.html
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/B-CAS_CARD_3.JPG/1200px-B-CAS_CARD_3.JPG" height="250">
 
 - 再発行手数料 1枚 2,050円
 
