@@ -15,8 +15,7 @@
 +++
 #### アースソフト PT3
 https://www.amazon.co.jp//dp/B00857CQAM
-<img src="https://images-na.ssl-images-amazon.com/images/I/81LCWH7LYIL._SL1500_.jpg" width="400">
-
+<img src="https://images-na.ssl-images-amazon.com/images/I/81LCWH7LYIL._SL1500_.jpg" width="300">
 - インターフェース: PCI Express x1
 - 地上波2ch、BS/CS 2ch
 - 2016年3月までは1万円程度で買えた
