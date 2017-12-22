@@ -150,9 +150,14 @@ https://github.com/stz2012/libarib25
 
 ### 録画コマンド
 チューナー、ドライバによって録画コマンドが異なる。
-- recpt1 https://github.com/stz2012/recpt1
-- revdvb https://github.com/dogeel/recdvb
-- recfsusb2n https://github.com/epgdatacapbon/recfsusb2n
+- recpt1 
+-- https://github.com/stz2012/recpt1
+- revdvb
+-- https://github.com/dogeel/recdvb
+- recfsusb2n
+-- https://github.com/epgdatacapbon/recfsusb2n
+
++++
 
 コマンドは違うけど、使い方はほぼ同じ。
 ```
@@ -173,6 +178,7 @@ $ recfsusb2n --b25 27 1800 ch27_1800.ts
 - 録画時間
 - 出力ファイル
 
++++
 
 ### epgdump
 ### TsSplitter
