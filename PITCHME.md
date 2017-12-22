@@ -188,7 +188,7 @@ $ revdvb --b25 --http 8889
 VLCメディアプレイヤーでネットワークを開く
 `http://host:8888/24`
 
-<img src="assets/img/VLC _open_network.png" height="250">
+<img src="assets/img/VLC _open_network.png" height="350">
 
 ---
 
