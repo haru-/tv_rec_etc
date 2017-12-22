@@ -9,7 +9,7 @@
 
 ---
 
-## 必要なハードウェア
+## ハードウェア
 +++
 ### TVチューナー
 +++
@@ -143,6 +143,9 @@ http://www.plex-net.co.jp/product/px-w3u4/download.html
 +++
 
 ### libarib25
+暗号化されている放送をB-CASカードを使って復号化するためのライブラリ
+https://github.com/stz2012/libarib25
+
 ### 録画コマンド
 #### recpt1
 #### revdvb
