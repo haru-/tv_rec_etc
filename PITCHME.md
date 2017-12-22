@@ -185,14 +185,12 @@ $ recfsusb2n --b25 27 1800 ch27_1800.ts
 $ recpt1 --b25 --http 8888
 $ revdvb --b25 --http 8889
 ```
-VLCメディアプレイヤーでネットワークを開く
-```
-http://host:8888/24
-```
+VLCメディアプレイヤーでネットワークを開く http://host:8888/24
+
 <img src="assets/img/VLC _open_network.png" height="400">
 
 +++
-こんな感じのプレイリストを作って、
+こんな感じのプレイリストを作って読み込むと、
 ```dvb_playlist.m3u
 #EXTM3U
 #EXTINF:0,01.NHK総合
@@ -213,6 +211,7 @@ http://192.168.1.17:8888/24
 http://192.168.1.17:8888/23
 ```
 +++
+チャンネル変更のたびにURL打たなくて良いので楽。
 
 <img src="assets/img/VLC _laylist.png" height="400">
 
