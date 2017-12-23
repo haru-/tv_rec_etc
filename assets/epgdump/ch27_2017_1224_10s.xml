@@ -1,1 +1,1508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tv SYSTEM "xmltv.dtd">
 
+<tv generator-info-name="tsEPG2xml" generator-info-url="http://localhost/">
+  <channel id="GR1_1024" transport_stream_id="32736" original_network_id="32736" service_id="1024">
+    <display-name lang="ja_JP">ＮＨＫ総合１・東京</display-name>
+  </channel>
+  <channel id="GR1_1025" transport_stream_id="32736" original_network_id="32736" service_id="1025">
+    <display-name lang="ja_JP">ＮＨＫ総合２・東京</display-name>
+  </channel>
+  <programme start="20171224020000 +0900" stop="20171224020500 +0900" channel="GR1_1024" event_id="33228" duration="300">
+    <title lang="ja_JP">ちょい☆ドラＰＲ【字】</title>
+    <desc lang="ja_JP">１２月２８日（木）【総合】午後１０時「ちょい☆ドラ」のスピンオフ・ミニミニドラマ！</desc>
+    <category lang="ja_JP">ドラマ</category>
+    <category lang="en">drama</category>
+    <category_middle lang="ja_JP">国内ドラマ</category_middle>
+    <category_middle lang="en">Japanese drama</category_middle>
+    <category lang="ja_JP">情報／ワイドショー</category>
+    <category lang="en">information</category>
+    <category_middle lang="ja_JP">番組紹介・お知らせ</category_middle>
+    <category_middle lang="en">Promotion/information</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171224020500 +0900" stop="20171224021500 +0900" channel="GR1_1024" event_id="33229" duration="600">
+    <title lang="ja_JP">ねこねこ５５「ミケの巻」【字】</title>
+    <desc lang="ja_JP">「０６５５」「２３５５」がお送りするねこだらけの１０分間！ねこの楽しいコンテンツをぎゅっと詰め込みました。今回はミケの巻。ねこ好き集合！！出演：中川翔子　ほか</desc>
+    <category lang="ja_JP">アニメ／特撮</category>
+    <category lang="en">anime</category>
+    <category_middle lang="ja_JP">国内アニメ</category_middle>
+    <category_middle lang="en">Japanese animation</category_middle>
+    <category lang="ja_JP">バラエティ</category>
+    <category lang="en">variety</category>
+    <category_middle lang="ja_JP">音楽バラエティ</category_middle>
+    <category_middle lang="en">Musical variety show</category_middle>
+    <category lang="ja_JP">趣味／教育</category>
+    <category lang="en">hobby</category>
+    <category_middle lang="ja_JP">その他</category_middle>
+    <category_middle lang="en">Other</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171224021500 +0900" stop="20171224022500 +0900" channel="GR1_1024" event_id="33695" duration="600">
+    <title lang="ja_JP">ドラマ１０をさらに楽しめる！「マチ工場のオトコ」【字】</title>
+    <desc lang="ja_JP">毎週金曜日よる１０時からドラマ１０「マチ工場のオンナ」が放送中！ものづくりが盛んな愛知県内の工場に、「マチ工場のオトコ」我が家が潜入！</desc>
+    <category lang="ja_JP">ドラマ</category>
+    <category lang="en">drama</category>
+    <category_middle lang="ja_JP">国内ドラマ</category_middle>
+    <category_middle lang="en">Japanese drama</category_middle>
+    <category lang="ja_JP">情報／ワイドショー</category>
+    <category lang="en">information</category>
+    <category_middle lang="ja_JP">番組紹介・お知らせ</category_middle>
+    <category_middle lang="en">Promotion/information</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171224022500 +0900" stop="20171224032500 +0900" channel="GR1_1024" event_id="1353" duration="3600">
+    <title lang="ja_JP">北アルプス「北アルプスの名峰」</title>
+    <desc lang="ja_JP">北アルプスに位置する百名山をはじめとする名峰の数々</desc>
+    <category lang="ja_JP">ドキュメンタリー／教養</category>
+    <category lang="en">documentary</category>
+    <category_middle lang="ja_JP">自然・動物・環境</category_middle>
+    <category_middle lang="en">Nature/animal/environment</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171224032500 +0900" stop="20171224041000 +0900" channel="GR1_1024" event_id="1355" duration="2700">
+    <title lang="ja_JP">美しき日本の山々「開聞岳、聖岳、鳥海山」</title>
+    <desc lang="ja_JP">「にっぽん百名山」の山々の魅力、四季折々の風景や草花などの自然を美しい音楽に乗せてたっぷりとお伝えする「美しき日本の山々」。今回は、開聞岳・聖岳・鳥海山です。</desc>
+    <category lang="ja_JP">ドキュメンタリー／教養</category>
+    <category lang="en">documentary</category>
+    <category_middle lang="ja_JP">自然・動物・環境</category_middle>
+    <category_middle lang="en">Nature/animal/environment</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171224041000 +0900" stop="20171224041300 +0900" channel="GR1_1024" event_id="29593" duration="180">
+    <title lang="ja_JP">青海チベット鉄道「貴重な野生動物」【字】</title>
+    <desc lang="ja_JP"></desc>
+    <category lang="ja_JP">ドキュメンタリー／教養</category>
+    <category lang="en">documentary</category>
+    <category_middle lang="ja_JP">歴史・紀行</category_middle>
+    <category_middle lang="en">History/travel</category_middle>
+    <freeCA>0</freeCA>
+    <video id="3">
+       <resolution>SD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171224041300 +0900" stop="20171224041500 +0900" channel="GR1_1024" event_id="29595" duration="120">
+    <title lang="ja_JP">インターミッション</title>
+    <desc lang="ja_JP"></desc>
+    <category lang="ja_JP">ドキュメンタリー／教養</category>
+    <category lang="en">documentary</category>
+    <category_middle lang="ja_JP">その他</category_middle>
+    <category_middle lang="en">Other</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171224041500 +0900" stop="20171224041900 +0900" channel="GR1_1024" event_id="804" duration="240">
+    <title lang="ja_JP">ＮＨＫプレマップ「ロボカトー中島　エピソード０」</title>
+    <desc lang="ja_JP"></desc>
+    <category lang="ja_JP">情報／ワイドショー</category>
+    <category lang="en">information</category>
+    <category_middle lang="ja_JP">番組紹介・お知らせ</category_middle>
+    <category_middle lang="en">Promotion/information</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171224041900 +0900" stop="20171224042000 +0900" channel="GR1_1024" event_id="32090" duration="60">
+    <title lang="ja_JP">紅白１分ＰＲ「司会」（１）</title>
+    <desc lang="ja_JP"></desc>
+    <category lang="ja_JP">情報／ワイドショー</category>
+    <category lang="en">information</category>
+    <category_middle lang="ja_JP">番組紹介・お知らせ</category_middle>
+    <category_middle lang="en">Promotion/information</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171224042000 +0900" stop="20171224042500 +0900" channel="GR1_1024" event_id="29598" duration="300">
+    <title lang="ja_JP">名曲アルバム「別府音頭」中山晋平・作曲／西条八十・作詞／和田薫・編曲【SS】</title>
+    <desc lang="ja_JP">日本有数の温泉地・大分県別府市。この土地で昭和初期から歌い継がれてきた『別府音頭』をオーケストラと大分県出身の川野夏美さんの歌声でお届けする。編曲・和田薫</desc>
+    <category lang="ja_JP">音楽</category>
+    <category lang="en">music</category>
+    <category_middle lang="ja_JP">クラシック・オペラ</category_middle>
+    <category_middle lang="en">Classical/opera</category_middle>
+    <category lang="ja_JP">趣味／教育</category>
+    <category lang="en">hobby</category>
+    <category_middle lang="ja_JP">音楽・美術・工芸</category_middle>
+    <category_middle lang="en">Music/art/ artifice</category_middle>
+    <category lang="ja_JP">ドキュメンタリー／教養</category>
+    <category lang="en">documentary</category>
+    <category_middle lang="ja_JP">歴史・紀行</category_middle>
+    <category_middle lang="en">History/travel</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="9">
+       <desc>サラウンドステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171224042500 +0900" stop="20171224043000 +0900" channel="GR1_1024" event_id="29599" duration="300">
+    <title lang="ja_JP">５分でわかる「おんな城主　直虎」　最終回「石を継ぐ者」【字】</title>
+    <desc lang="ja_JP">最終回「石を継ぐ者」５分ダイジェスト</desc>
+    <category lang="ja_JP">ドラマ</category>
+    <category lang="en">drama</category>
+    <category_middle lang="ja_JP">国内ドラマ</category_middle>
+    <category_middle lang="en">Japanese drama</category_middle>
+    <category lang="ja_JP">情報／ワイドショー</category>
+    <category lang="en">information</category>
+    <category_middle lang="ja_JP">番組紹介・お知らせ</category_middle>
+    <category_middle lang="en">Promotion/information</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171224043000 +0900" stop="20171224050000 +0900" channel="GR1_1024" event_id="29600" duration="1800">
+    <title lang="ja_JP">イッピン選「心ときめく　華麗な輝き〜群馬　ガラス製品〜」【字】</title>
+    <desc lang="ja_JP">懐かしい自然の風景を立体的に表した人気のビールグラス。神秘の小宇宙を封じ込めたペンダント。美しいモザイクの器など群馬の多彩なガラス製品の魅力に吉木りさが迫る。</desc>
+    <category lang="ja_JP">ドキュメンタリー／教養</category>
+    <category lang="en">documentary</category>
+    <category_middle lang="ja_JP">カルチャー・伝統文化</category_middle>
+    <category_middle lang="en">Culture/traditional culture</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171224050000 +0900" stop="20171224051500 +0900" channel="GR1_1024" event_id="29603" duration="900">
+    <title lang="ja_JP">ニュース・気象情報</title>
+    <desc lang="ja_JP"></desc>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">定時・総合</category_middle>
+    <category_middle lang="en">Regular/General</category_middle>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">天気</category_middle>
+    <category_middle lang="en">Weather</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="1">
+       <desc>シングルモノ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171224051500 +0900" stop="20171224054500 +0900" channel="GR1_1024" event_id="29604" duration="1800">
+    <title lang="ja_JP">三遊亭円楽の演芸図鑑・選「泉谷しげる、ぴろき、古今亭菊之丞」【字】</title>
+    <desc lang="ja_JP">落語家・三遊亭円楽が、演芸界のえりすぐりの至芸をナビゲートする。演芸はぴろきの漫談と古今亭菊之丞の落語「長短」。対談のゲストは泉谷しげる。</desc>
+    <category lang="ja_JP">バラエティ</category>
+    <category lang="en">variety</category>
+    <category_middle lang="ja_JP">お笑い・コメディ</category_middle>
+    <category_middle lang="en">Comedy</category_middle>
+    <category lang="ja_JP">劇場／公演</category>
+    <category lang="en">stage</category>
+    <category_middle lang="ja_JP">落語・演芸</category_middle>
+    <category_middle lang="en">Comic monologue (Rakugo)/ entertainment</category_middle>
+    <category lang="ja_JP">バラエティ</category>
+    <category lang="en">variety</category>
+    <category_middle lang="ja_JP">その他</category_middle>
+    <category_middle lang="en">Other</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171224054500 +0900" stop="20171224054700 +0900" channel="GR1_1024" event_id="29607" duration="120">
+    <title lang="ja_JP">ＮＨＫ国際放送番組審議会「１２月の審議から」【字】</title>
+    <desc lang="ja_JP"></desc>
+    <category lang="ja_JP">情報／ワイドショー</category>
+    <category lang="en">information</category>
+    <category_middle lang="ja_JP">番組紹介・お知らせ</category_middle>
+    <category_middle lang="en">Promotion/information</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171224054700 +0900" stop="20171224054900 +0900" channel="GR1_1024" event_id="29608" duration="120">
+    <title lang="ja_JP">ＮＨＫプレマップ「歴史のへ〜ほ〜」</title>
+    <desc lang="ja_JP"></desc>
+    <category lang="ja_JP">情報／ワイドショー</category>
+    <category lang="en">information</category>
+    <category_middle lang="ja_JP">番組紹介・お知らせ</category_middle>
+    <category_middle lang="en">Promotion/information</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171224054900 +0900" stop="20171224055000 +0900" channel="GR1_1024" event_id="32036" duration="60">
+    <title lang="ja_JP">紅白１分ＰＲ「初出場」</title>
+    <desc lang="ja_JP"></desc>
+    <category lang="ja_JP">情報／ワイドショー</category>
+    <category lang="en">information</category>
+    <category_middle lang="ja_JP">番組紹介・お知らせ</category_middle>
+    <category_middle lang="en">Promotion/information</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171224055000 +0900" stop="20171224060000 +0900" channel="GR1_1024" event_id="29609" duration="600">
+    <title lang="ja_JP">気象情報</title>
+    <desc lang="ja_JP"></desc>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">天気</category_middle>
+    <category_middle lang="en">Weather</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="1">
+       <desc>シングルモノ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171224060000 +0900" stop="20171224061500 +0900" channel="GR1_1024" event_id="29618" duration="900">
+    <title lang="ja_JP">ニュース・気象情報</title>
+    <desc lang="ja_JP"></desc>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">定時・総合</category_middle>
+    <category_middle lang="en">Regular/General</category_middle>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">天気</category_middle>
+    <category_middle lang="en">Weather</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="1">
+       <desc>シングルモノ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171224061500 +0900" stop="20171224065000 +0900" channel="GR1_1024" event_id="29620" duration="2100">
+    <title lang="ja_JP">目撃！にっぽん選「高校生ワーキングプア　旅立ちの春」【字】</title>
+    <desc lang="ja_JP">６人に１人の子どもが相対的貧困とされる日本。今、家計を支えるために働かざるを得ない「高校生ワーキングプア」が増えている。働かなければ学べない高校生の現実に迫る。</desc>
+    <category lang="ja_JP">ドキュメンタリー／教養</category>
+    <category lang="en">documentary</category>
+    <category_middle lang="ja_JP">社会・時事</category_middle>
+    <category_middle lang="en">Social/topical news</category_middle>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">特集・ドキュメント</category_middle>
+    <category_middle lang="en">Special topic/documentary</category_middle>
+    <category lang="ja_JP">ドキュメンタリー／教養</category>
+    <category lang="en">documentary</category>
+    <category_middle lang="ja_JP">カルチャー・伝統文化</category_middle>
+    <category_middle lang="en">Culture/traditional culture</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171224065000 +0900" stop="20171224065300 +0900" channel="GR1_1024" event_id="29623" duration="180">
+    <title lang="ja_JP">ＮＨＫ中央放送番組審議会「１２月の審議から」【字】</title>
+    <desc lang="ja_JP"></desc>
+    <category lang="ja_JP">情報／ワイドショー</category>
+    <category lang="en">information</category>
+    <category_middle lang="ja_JP">番組紹介・お知らせ</category_middle>
+    <category_middle lang="en">Promotion/information</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171224065300 +0900" stop="20171224070003 +0900" channel="GR1_1024" event_id="29626" duration="423">
+    <title lang="ja_JP">気象情報・ニュース</title>
+    <desc lang="ja_JP"></desc>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">天気</category_middle>
+    <category_middle lang="en">Weather</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="1">
+       <desc>シングルモノ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171224070003 +0900" stop="20171224074500 +0900" channel="GR1_1024" event_id="29629" duration="2697">
+    <title lang="ja_JP">ＮＨＫニュース　おはよう日本【字】</title>
+    <desc lang="ja_JP">▼“タイガーマスク運動・伊達直人”その後▼被災地イルミネーションが存続危機▼退位決定後、初の一般参賀▼南さんの気象解説…“冬の雷”に注意！</desc>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">定時・総合</category_middle>
+    <category_middle lang="en">Regular/General</category_middle>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">特集・ドキュメント</category_middle>
+    <category_middle lang="en">Special topic/documentary</category_middle>
+    <category lang="ja_JP">スポーツ</category>
+    <category lang="en">sports</category>
+    <category_middle lang="ja_JP">スポーツニュース</category_middle>
+    <category_middle lang="en">Sports news</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="1">
+       <desc>シングルモノ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171224074500 +0900" stop="20171224080000 +0900" channel="GR1_1024" event_id="29631" duration="900">
+    <title lang="ja_JP">さわやか自然百景「北海道　ニカンベツ川」【字】</title>
+    <desc lang="ja_JP">襟裳岬の北西、太平洋に注ぐニカンベツ川。放流が行われていないため、野生本来のサケの行動が見られる数少ない川だ。産卵期の秋、サケたちは激しい闘争劇を繰り広げる。</desc>
+    <category lang="ja_JP">ドキュメンタリー／教養</category>
+    <category lang="en">documentary</category>
+    <category_middle lang="ja_JP">自然・動物・環境</category_middle>
+    <category_middle lang="en">Nature/animal/environment</category_middle>
+    <category lang="ja_JP">趣味／教育</category>
+    <category lang="en">hobby</category>
+    <category_middle lang="ja_JP">旅・釣り・アウトドア</category_middle>
+    <category_middle lang="en">Travel/fishing/outdoors</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171224080000 +0900" stop="20171224082500 +0900" channel="GR1_1024" event_id="29634" duration="1500">
+    <title lang="ja_JP">小さな旅「香箱に真心ぎゅっと〜石川県　加賀市〜」【字】</title>
+    <desc lang="ja_JP">石川県加賀市の橋立漁港。冬、水揚げされたばかりのズワイガニであふれる。「香箱ガニ」と呼ばれるメスは、おいしさ詰まったふるさとの味。真っ赤な宝物にわく浜を訪ねる。</desc>
+    <category lang="ja_JP">ドキュメンタリー／教養</category>
+    <category lang="en">documentary</category>
+    <category_middle lang="ja_JP">歴史・紀行</category_middle>
+    <category_middle lang="en">History/travel</category_middle>
+    <category lang="ja_JP">ドキュメンタリー／教養</category>
+    <category lang="en">documentary</category>
+    <category_middle lang="ja_JP">社会・時事</category_middle>
+    <category_middle lang="en">Social/topical news</category_middle>
+    <category lang="ja_JP">ドキュメンタリー／教養</category>
+    <category lang="en">documentary</category>
+    <category_middle lang="ja_JP">カルチャー・伝統文化</category_middle>
+    <category_middle lang="en">Culture/traditional culture</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171224082500 +0900" stop="20171224085700 +0900" channel="GR1_1024" event_id="29635" duration="1920">
+    <title lang="ja_JP">うまいッ！「寒風が育むうまみ　塩引き鮭（ざけ）〜新潟　村上市〜」【字】</title>
+    <desc lang="ja_JP">お歳暮にもよく登場する新巻鮭。一見似ているものの、製法も味わいも異なるのが、新潟県村上市の名産「塩引き鮭（ざけ）」。干すことで発酵が進み、深いうまみを生む。</desc>
+    <category lang="ja_JP">情報／ワイドショー</category>
+    <category lang="en">information</category>
+    <category_middle lang="ja_JP">グルメ・料理</category_middle>
+    <category_middle lang="en">Gourmet/cooking show</category_middle>
+    <category lang="ja_JP">バラエティ</category>
+    <category lang="en">variety</category>
+    <category_middle lang="ja_JP">料理バラエティ</category_middle>
+    <category_middle lang="en">Cooking variety show</category_middle>
+    <category lang="ja_JP">ドキュメンタリー／教養</category>
+    <category lang="en">documentary</category>
+    <category_middle lang="ja_JP">社会・時事</category_middle>
+    <category_middle lang="en">Social/topical news</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171224085700 +0900" stop="20171224090000 +0900" channel="GR1_1024" event_id="29640" duration="180">
+    <title lang="ja_JP">気象情報</title>
+    <desc lang="ja_JP"></desc>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">天気</category_middle>
+    <category_middle lang="en">Weather</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="1">
+       <desc>シングルモノ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171225120003 +0900" stop="20171225122000 +0900" channel="GR1_1024" event_id="30159" duration="1197">
+    <title lang="ja_JP">ニュース【字】</title>
+    <desc lang="ja_JP"></desc>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">定時・総合</category_middle>
+    <category_middle lang="en">Regular/General</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="1">
+       <desc>シングルモノ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171225122000 +0900" stop="20171225123800 +0900" channel="GR1_1024" event_id="30161" duration="1080">
+    <title lang="ja_JP">ひるブラ「特選　動物大好き！育てる裏側大公開！」【字】</title>
+    <desc lang="ja_JP">福岡の動物園と千葉の飼育員を育てる専門学校をご紹介！動物らしい動きができるようにと工夫を凝らしたエサやりの様子や動物の捕獲や芸の仕込み方を学ぶ現場に潜入します！</desc>
+    <category lang="ja_JP">バラエティ</category>
+    <category lang="en">variety</category>
+    <category_middle lang="ja_JP">旅バラエティ</category_middle>
+    <category_middle lang="en">Travel variety show</category_middle>
+    <category lang="ja_JP">情報／ワイドショー</category>
+    <category lang="en">information</category>
+    <category_middle lang="ja_JP">暮らし・住まい</category_middle>
+    <category_middle lang="en">Life/residence</category_middle>
+    <category lang="ja_JP">ドキュメンタリー／教養</category>
+    <category lang="en">documentary</category>
+    <category_middle lang="ja_JP">歴史・紀行</category_middle>
+    <category_middle lang="en">History/travel</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171225123800 +0900" stop="20171225124200 +0900" channel="GR1_1024" event_id="28130" duration="240">
+    <title lang="ja_JP">ＮＨＫプレマップ「又吉直樹×ドラマ×渋谷　許さないという暴力について考えろ」</title>
+    <desc lang="ja_JP"></desc>
+    <category lang="ja_JP">情報／ワイドショー</category>
+    <category lang="en">information</category>
+    <category_middle lang="ja_JP">番組紹介・お知らせ</category_middle>
+    <category_middle lang="en">Promotion/information</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171225124200 +0900" stop="20171225124500 +0900" channel="GR1_1024" event_id="766" duration="180">
+    <title lang="ja_JP">紅白１分ＰＲ「コント」（２）</title>
+    <desc lang="ja_JP"></desc>
+    <category lang="ja_JP">情報／ワイドショー</category>
+    <category lang="en">information</category>
+    <category_middle lang="ja_JP">番組紹介・お知らせ</category_middle>
+    <category_middle lang="en">Promotion/information</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171225124500 +0900" stop="20171225130000 +0900" channel="GR1_1024" event_id="30166" duration="900">
+    <title lang="ja_JP">連続テレビ小説　わろてんか（７３）「エッサッサ乙女組」【解】【字】【デ】【再】</title>
+    <desc lang="ja_JP">藤吉（松坂桃李）は当時流行し始めていた安来節を北村笑店も取り入れたらどうかという風太（濱田岳）からの進言を受け、早速てん（葵わかな）と一緒に島根に旅立つ。</desc>
+    <category lang="ja_JP">ドラマ</category>
+    <category lang="en">drama</category>
+    <category_middle lang="ja_JP">国内ドラマ</category_middle>
+    <category_middle lang="en">Japanese drama</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc>日本語</extdesc>
+    </audio>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc>日本語（解説）</extdesc>
+    </audio>
+  </programme>
+  <programme start="20171225130000 +0900" stop="20171225130500 +0900" channel="GR1_1024" event_id="30167" duration="300">
+    <title lang="ja_JP">ニュース【字】</title>
+    <desc lang="ja_JP"></desc>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">定時・総合</category_middle>
+    <category_middle lang="en">Regular/General</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="1">
+       <desc>シングルモノ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171225130500 +0900" stop="20171225140000 +0900" channel="GR1_1024" event_id="30168" duration="3300">
+    <title lang="ja_JP">ごごナマ　おしゃべり日和「吉川晃司　カッコ良すぎるオトコの素顔とは」【字】</title>
+    <desc lang="ja_JP">ゲストは吉川晃司さん。２トン分のバラをプレゼントした？ウソのようで本当のエピソードとは？週３日魚市場に行く！大の魚好き吉川晃司さんがさばく魚料理を特別に大公開！</desc>
+    <category lang="ja_JP">バラエティ</category>
+    <category lang="en">variety</category>
+    <category_middle lang="ja_JP">トークバラエティ</category_middle>
+    <category_middle lang="en">Talk show</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171225140000 +0900" stop="20171225140500 +0900" channel="GR1_1024" event_id="30169" duration="300">
+    <title lang="ja_JP">ニュース・気象情報【字】</title>
+    <desc lang="ja_JP"></desc>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">定時・総合</category_middle>
+    <category_middle lang="en">Regular/General</category_middle>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">天気</category_middle>
+    <category_middle lang="en">Weather</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="1">
+       <desc>シングルモノ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171225140500 +0900" stop="20171225145500 +0900" channel="GR1_1024" event_id="30170" duration="3000">
+    <title lang="ja_JP">ごごナマ　知っトク！らいふ「美味１００倍！インスタント麺アレンジ術」【字】</title>
+    <desc lang="ja_JP">インスタントラーメン研究の第一人者から、作り方の極意とアレンジ術を教わる。麺にこしが出るゆで方や、味に変化をつけるのによい調味料など、ノウハウ満載です！</desc>
+    <category lang="ja_JP">バラエティ</category>
+    <category lang="en">variety</category>
+    <category_middle lang="ja_JP">トークバラエティ</category_middle>
+    <category_middle lang="en">Talk show</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171225145500 +0900" stop="20171225150000 +0900" channel="GR1_1024" event_id="30171" duration="300">
+    <title lang="ja_JP">テレビ体操【字】</title>
+    <desc lang="ja_JP">【出演】鈴木大輔，原川愛，舘野伶奈，今井菜津美，【ピアノ】幅しげみ</desc>
+    <category lang="ja_JP">スポーツ</category>
+    <category lang="en">sports</category>
+    <category_middle lang="ja_JP">その他</category_middle>
+    <category_middle lang="en">Other</category_middle>
+    <category lang="ja_JP">趣味／教育</category>
+    <category lang="en">hobby</category>
+    <category_middle lang="ja_JP">その他</category_middle>
+    <category_middle lang="en">Other</category_middle>
+    <category lang="ja_JP">情報／ワイドショー</category>
+    <category lang="en">information</category>
+    <category_middle lang="ja_JP">健康・医療</category_middle>
+    <category_middle lang="en">Health/medical care</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171225150000 +0900" stop="20171225150800 +0900" channel="GR1_1024" event_id="30172" duration="480">
+    <title lang="ja_JP">ニュース・気象情報【字】</title>
+    <desc lang="ja_JP"></desc>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">定時・総合</category_middle>
+    <category_middle lang="en">Regular/General</category_middle>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">天気</category_middle>
+    <category_middle lang="en">Weather</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="1">
+       <desc>シングルモノ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171225150800 +0900" stop="20171225160000 +0900" channel="GR1_1024" event_id="30174" duration="3120">
+    <title lang="ja_JP">ごごナマ　オトナの遊び場「初詣にオススメ！？個性的な御利益大特集」【字】</title>
+    <desc lang="ja_JP">下の病気予防から、ペットの健康長寿まで…新年の初詣先にオススメ！？一風変わった御利益がある寺社仏閣の大特集▽全国の珍しいおみくじも紹介▽世界安上がり食文化紀行</desc>
+    <category lang="ja_JP">バラエティ</category>
+    <category lang="en">variety</category>
+    <category_middle lang="ja_JP">トークバラエティ</category_middle>
+    <category_middle lang="en">Talk show</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171225160000 +0900" stop="20171225165000 +0900" channel="GR1_1024" event_id="30175" duration="3000">
+    <title lang="ja_JP">４時も！シブ５時【字】【デ】</title>
+    <desc lang="ja_JP">▽着物文化　魅力伝える若き伝道師　【ＭＣ】ジョン　カビラ，廣瀬智美，【プレゼンター】ハリー杉山，【気象キャスター】福岡良子</desc>
+    <category lang="ja_JP">情報／ワイドショー</category>
+    <category lang="en">information</category>
+    <category_middle lang="ja_JP">暮らし・住まい</category_middle>
+    <category_middle lang="en">Life/residence</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="1">
+       <desc>シングルモノ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171225165000 +0900" stop="20171225180000 +0900" channel="GR1_1024" event_id="30176" duration="4200">
+    <title lang="ja_JP">ニュース　シブ５時【字】【デ】</title>
+    <desc lang="ja_JP">▽４時５０分はニュース　▽フィギュア五輪代表　ピョンチャンへの意気込みは！　▽心にも光をともす！冬のイルミネーション　【キャスター】松尾剛，寺門亜衣子ほか</desc>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">定時・総合</category_middle>
+    <category_middle lang="en">Regular/General</category_middle>
+    <category lang="ja_JP">情報／ワイドショー</category>
+    <category lang="en">information</category>
+    <category_middle lang="ja_JP">暮らし・住まい</category_middle>
+    <category_middle lang="en">Life/residence</category_middle>
+    <category lang="ja_JP">情報／ワイドショー</category>
+    <category lang="en">information</category>
+    <category_middle lang="ja_JP">グルメ・料理</category_middle>
+    <category_middle lang="en">Gourmet/cooking show</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="1">
+       <desc>シングルモノ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171225180000 +0900" stop="20171225181000 +0900" channel="GR1_1024" event_id="30178" duration="600">
+    <title lang="ja_JP">ニュース　シブ５時【二】【字】【デ】</title>
+    <desc lang="ja_JP">▽最新のニュースをお伝えします。</desc>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">定時・総合</category_middle>
+    <category_middle lang="en">Regular/General</category_middle>
+    <category lang="ja_JP">情報／ワイドショー</category>
+    <category lang="en">information</category>
+    <category_middle lang="ja_JP">暮らし・住まい</category_middle>
+    <category_middle lang="en">Life/residence</category_middle>
+    <category lang="ja_JP">情報／ワイドショー</category>
+    <category lang="en">information</category>
+    <category_middle lang="ja_JP">グルメ・料理</category_middle>
+    <category_middle lang="en">Gourmet/cooking show</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="2">
+       <desc>デュアルモノ</desc>
+       <lang>jpn_eng</lang>
+       <extdesc>日本語英語</extdesc>
+    </audio>
+  </programme>
+  <programme start="20171225181000 +0900" stop="20171225185200 +0900" channel="GR1_1024" event_id="30179" duration="2520">
+    <title lang="ja_JP">首都圏ネットワーク【字】</title>
+    <desc lang="ja_JP">▽首都圏２０１７・あの事件の“その後”を追跡　▽東京に“幻の貝塚”が　【キャスター】山田大樹，合原明子，【気象キャスター】檜山靖洋</desc>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">ローカル・地域</category_middle>
+    <category_middle lang="en">Local</category_middle>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">特集・ドキュメント</category_middle>
+    <category_middle lang="en">Special topic/documentary</category_middle>
+    <category lang="ja_JP">情報／ワイドショー</category>
+    <category lang="en">information</category>
+    <category_middle lang="ja_JP">暮らし・住まい</category_middle>
+    <category_middle lang="en">Life/residence</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="1">
+       <desc>シングルモノ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171225185200 +0900" stop="20171225190003 +0900" channel="GR1_1024" event_id="30183" duration="483">
+    <title lang="ja_JP">気象情報</title>
+    <desc lang="ja_JP"></desc>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">天気</category_middle>
+    <category_middle lang="en">Weather</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="1">
+       <desc>シングルモノ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171225190003 +0900" stop="20171225193000 +0900" channel="GR1_1024" event_id="30188" duration="1797">
+    <title lang="ja_JP">ニュース７【二】【字】</title>
+    <desc lang="ja_JP">大谷選手が移籍報告▽東京五輪へ技術展示会</desc>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">定時・総合</category_middle>
+    <category_middle lang="en">Regular/General</category_middle>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">天気</category_middle>
+    <category_middle lang="en">Weather</category_middle>
+    <category lang="ja_JP">スポーツ</category>
+    <category lang="en">sports</category>
+    <category_middle lang="ja_JP">スポーツニュース</category_middle>
+    <category_middle lang="en">Sports news</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="2">
+       <desc>デュアルモノ</desc>
+       <lang>jpn_eng</lang>
+       <extdesc>日本語英語</extdesc>
+    </audio>
+  </programme>
+  <programme start="20171225193000 +0900" stop="20171225204200 +0900" channel="GR1_1024" event_id="30189" duration="4320">
+    <title lang="ja_JP">超絶　凄（すご）ワザ！「オーストラリア大冒険ＳＰ　次世代カー爆走３０００ｋｍ」【字】</title>
+    <desc lang="ja_JP">オーストラリア大陸３０００ｋｍ縦断！ソーラーカー耐久レースに挑む日本チームに密着。最先端技術から職人の手ワザまで。ものづくりの力で勝利なるか？語り千葉繁・神谷明</desc>
+    <category lang="ja_JP">ドキュメンタリー／教養</category>
+    <category lang="en">documentary</category>
+    <category_middle lang="ja_JP">その他</category_middle>
+    <category_middle lang="en">Other</category_middle>
+    <category lang="ja_JP">ドキュメンタリー／教養</category>
+    <category lang="en">documentary</category>
+    <category_middle lang="ja_JP">カルチャー・伝統文化</category_middle>
+    <category_middle lang="en">Culture/traditional culture</category_middle>
+    <category lang="ja_JP">ドキュメンタリー／教養</category>
+    <category lang="en">documentary</category>
+    <category_middle lang="ja_JP">宇宙・科学・医学</category_middle>
+    <category_middle lang="en">Universe/science/science of medicine</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171225204200 +0900" stop="20171225204500 +0900" channel="GR1_1024" event_id="30190" duration="180">
+    <title lang="ja_JP">平成２９年度　ＮＨＫ歳末・海外たすけあいを終えて【字】【手】</title>
+    <desc lang="ja_JP">「ＮＨＫ歳末たすけあい・海外たすけあい」が１２月２５日に終了する。主催者の中央共同募金会会長と日本赤十字社社長、ＮＨＫ会長から、視聴者へ感謝の意を伝える。</desc>
+    <category lang="ja_JP">情報／ワイドショー</category>
+    <category lang="en">information</category>
+    <category_middle lang="ja_JP">番組紹介・お知らせ</category_middle>
+    <category_middle lang="en">Promotion/information</category_middle>
+    <category lang="ja_JP">福祉</category>
+    <category lang="en">welfare</category>
+    <category_middle lang="ja_JP">社会福祉</category_middle>
+    <category_middle lang="en">Social welfare</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171225204500 +0900" stop="20171225210000 +0900" channel="GR1_1024" event_id="30191" duration="900">
+    <title lang="ja_JP">首都圏ニュース８４５【字】</title>
+    <desc lang="ja_JP">【キャスター】高井正智，【気象キャスター】檜山靖洋</desc>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">ローカル・地域</category_middle>
+    <category_middle lang="en">Local</category_middle>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">天気</category_middle>
+    <category_middle lang="en">Weather</category_middle>
+    <category lang="ja_JP">情報／ワイドショー</category>
+    <category lang="en">information</category>
+    <category_middle lang="ja_JP">暮らし・住まい</category_middle>
+    <category_middle lang="en">Life/residence</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="1">
+       <desc>シングルモノ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171225210000 +0900" stop="20171225220000 +0900" channel="GR1_1024" event_id="30192" duration="3600">
+    <title lang="ja_JP">ニュースウオッチ９【二】【字】</title>
+    <desc lang="ja_JP">▽きょうのニュースを詳しくわかりやすく　▽関心の高いテーマを特集　▽速報スポーツ　▽気象情報　ほか　【キャスター】有馬嘉男，桑子真帆ほか</desc>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">定時・総合</category_middle>
+    <category_middle lang="en">Regular/General</category_middle>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">天気</category_middle>
+    <category_middle lang="en">Weather</category_middle>
+    <category lang="ja_JP">スポーツ</category>
+    <category lang="en">sports</category>
+    <category_middle lang="ja_JP">スポーツニュース</category_middle>
+    <category_middle lang="en">Sports news</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="2">
+       <desc>デュアルモノ</desc>
+       <lang>jpn_eng</lang>
+       <extdesc>日本語英語</extdesc>
+    </audio>
+  </programme>
+  <programme start="20171225220000 +0900" stop="20171225225000 +0900" channel="GR1_1024" event_id="30193" duration="3000">
+    <title lang="ja_JP">プロフェッショナル　仕事の流儀「プロ野球スカウト・苑田聡彦」【解】【字】</title>
+    <desc lang="ja_JP">２年連続でセ・リーグを制した広島東洋カープ。躍進の陰に名物スカウト・苑田聡彦（７２）の存在がある。中村奨成や清宮幸太郎などスター誕生に沸いたドラフト戦線の裏側。</desc>
+    <category lang="ja_JP">ドキュメンタリー／教養</category>
+    <category lang="en">documentary</category>
+    <category_middle lang="ja_JP">ドキュメンタリー全般</category_middle>
+    <category_middle lang="en">General documentary</category_middle>
+    <category lang="ja_JP">ドキュメンタリー／教養</category>
+    <category lang="en">documentary</category>
+    <category_middle lang="ja_JP">社会・時事</category_middle>
+    <category_middle lang="en">Social/topical news</category_middle>
+    <category lang="ja_JP">ドキュメンタリー／教養</category>
+    <category lang="en">documentary</category>
+    <category_middle lang="ja_JP">カルチャー・伝統文化</category_middle>
+    <category_middle lang="en">Culture/traditional culture</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc>日本語</extdesc>
+    </audio>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc>日本語（解説）</extdesc>
+    </audio>
+  </programme>
+  <programme start="20171225225000 +0900" stop="20171225231500 +0900" channel="GR1_1024" event_id="30197" duration="1500">
+    <title lang="ja_JP">ノーナレ「ゲーマー夫婦　１／６０秒の夫婦げんか」【字】</title>
+    <desc lang="ja_JP">五輪種目の候補と目される、対戦型コンピューターゲーム「ｅスポーツ」。格闘ゲームの世界で活躍するプロゲーマー夫婦に密着。世界大会に挑む、夫婦二人三脚の日々を追う。</desc>
+    <category lang="ja_JP">ドキュメンタリー／教養</category>
+    <category lang="en">documentary</category>
+    <category_middle lang="ja_JP">カルチャー・伝統文化</category_middle>
+    <category_middle lang="en">Culture/traditional culture</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171225231500 +0900" stop="20171225235500 +0900" channel="GR1_1024" event_id="30198" duration="2400">
+    <title lang="ja_JP">ニュースチェック１１【字】</title>
+    <desc lang="ja_JP">▽大谷選手が移籍会見　▽各地のクリスマスは？</desc>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">定時・総合</category_middle>
+    <category_middle lang="en">Regular/General</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="1">
+       <desc>シングルモノ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171225235500 +0900" stop="20171226000500 +0900" channel="GR1_1024" event_id="30199" duration="600">
+    <title lang="ja_JP">時論公論「増額続く防衛費と“敵基地攻撃能力”」増田剛解説委員【字】</title>
+    <desc lang="ja_JP">来年度予算案が閣議決定され、防衛費は過去最大。一方、小野寺防衛相は長距離巡航ミサイルの導入を発表し関連経費が予算案に盛り込まれる。防衛費のあり方を解説する。</desc>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">解説</category_middle>
+    <category_middle lang="en">Commentary</category_middle>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">定時・総合</category_middle>
+    <category_middle lang="en">Regular/General</category_middle>
+    <category lang="ja_JP">ドキュメンタリー／教養</category>
+    <category lang="en">documentary</category>
+    <category_middle lang="ja_JP">社会・時事</category_middle>
+    <category_middle lang="en">Social/topical news</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="1">
+       <desc>シングルモノ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171228031800 +0900" stop="20171228032000 +0900" channel="GR1_1024" event_id="3949" duration="120">
+    <title lang="ja_JP">ＮＨＫプレマップ</title>
+    <desc lang="ja_JP"></desc>
+    <category lang="ja_JP">情報／ワイドショー</category>
+    <category lang="en">information</category>
+    <category_middle lang="ja_JP">番組紹介・お知らせ</category_middle>
+    <category_middle lang="en">Promotion/information</category_middle>
+    <attachinfo>編成未定枠</attachinfo>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171228032000 +0900" stop="20171228032500 +0900" channel="GR1_1024" event_id="3950" duration="300">
+    <title lang="ja_JP">ちょい☆ドラＰＲ【字】</title>
+    <desc lang="ja_JP">１２月２８日（木）【総合】午後１０時「ちょい☆ドラ」のスピンオフ・ミニミニドラマ！</desc>
+    <category lang="ja_JP">ドラマ</category>
+    <category lang="en">drama</category>
+    <category_middle lang="ja_JP">国内ドラマ</category_middle>
+    <category_middle lang="en">Japanese drama</category_middle>
+    <category lang="ja_JP">情報／ワイドショー</category>
+    <category lang="en">information</category>
+    <category_middle lang="ja_JP">番組紹介・お知らせ</category_middle>
+    <category_middle lang="en">Promotion/information</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171228032500 +0900" stop="20171228034000 +0900" channel="GR1_1024" event_id="3951" duration="900">
+    <title lang="ja_JP">京都　音めぐり「古都に息づく暮らしと祈り」</title>
+    <desc lang="ja_JP">▽鴨川の流れ、水の恵みに感謝する「御手洗祭り」、西陣の機音、山伏の読経とほら貝の響き、先祖に祈りをささげる「五山送り火」。古都の暮らしを支えてきた音たち。</desc>
+    <category lang="ja_JP">ドキュメンタリー／教養</category>
+    <category lang="en">documentary</category>
+    <category_middle lang="ja_JP">歴史・紀行</category_middle>
+    <category_middle lang="en">History/travel</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171228034000 +0900" stop="20171228041100 +0900" channel="GR1_1024" event_id="31447" duration="1860">
+    <title lang="ja_JP">所さん！大変ですよ「足元に迫る危機！？マンホール・スリップ続発の怪」【字】【再】</title>
+    <desc lang="ja_JP">最近、なぜかマンホールのフタが滑りやすくなっているという。調べてみると耐久年数を過ぎたフタが全国に３００万枚もあることが判明。なぜ交換されないのか？原因に迫る。</desc>
+    <category lang="ja_JP">ドキュメンタリー／教養</category>
+    <category lang="en">documentary</category>
+    <category_middle lang="ja_JP">社会・時事</category_middle>
+    <category_middle lang="en">Social/topical news</category_middle>
+    <category lang="ja_JP">情報／ワイドショー</category>
+    <category lang="en">information</category>
+    <category_middle lang="ja_JP">暮らし・住まい</category_middle>
+    <category_middle lang="en">Life/residence</category_middle>
+    <category lang="ja_JP">ドキュメンタリー／教養</category>
+    <category lang="en">documentary</category>
+    <category_middle lang="ja_JP">自然・動物・環境</category_middle>
+    <category_middle lang="en">Nature/animal/environment</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171228041100 +0900" stop="20171228041500 +0900" channel="GR1_1024" event_id="31453" duration="240">
+    <title lang="ja_JP">ＮＨＫプレマップ「ドラマ１０　女子的生活」</title>
+    <desc lang="ja_JP"></desc>
+    <category lang="ja_JP">情報／ワイドショー</category>
+    <category lang="en">information</category>
+    <category_middle lang="ja_JP">番組紹介・お知らせ</category_middle>
+    <category_middle lang="en">Promotion/information</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171228041500 +0900" stop="20171228042000 +0900" channel="GR1_1024" event_id="31457" duration="300">
+    <title lang="ja_JP">みんなのうた「しあわせだいふく」「ロバ　ちょっとすねた」</title>
+    <desc lang="ja_JP">▽「しあわせだいふく」うた：三叉路／▽「ロバ　ちょっとすねた」うた：アグネス・チャン</desc>
+    <category lang="ja_JP">音楽</category>
+    <category lang="en">music</category>
+    <category_middle lang="ja_JP">童謡・キッズ</category_middle>
+    <category_middle lang="en">Children's song</category_middle>
+    <category lang="ja_JP">アニメ／特撮</category>
+    <category lang="en">anime</category>
+    <category_middle lang="ja_JP">国内アニメ</category_middle>
+    <category_middle lang="en">Japanese animation</category_middle>
+    <category lang="ja_JP">バラエティ</category>
+    <category lang="en">variety</category>
+    <category_middle lang="ja_JP">音楽バラエティ</category_middle>
+    <category_middle lang="en">Musical variety show</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171228042000 +0900" stop="20171228043000 +0900" channel="GR1_1024" event_id="31458" duration="600">
+    <title lang="ja_JP">視点・論点【字】</title>
+    <desc lang="ja_JP"></desc>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">解説</category_middle>
+    <category_middle lang="en">Commentary</category_middle>
+    <category lang="ja_JP">ドキュメンタリー／教養</category>
+    <category lang="en">documentary</category>
+    <category_middle lang="ja_JP">社会・時事</category_middle>
+    <category_middle lang="en">Social/topical news</category_middle>
+    <category lang="ja_JP">情報／ワイドショー</category>
+    <category lang="en">information</category>
+    <category_middle lang="ja_JP">その他</category_middle>
+    <category_middle lang="en">Others</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="1">
+       <desc>シングルモノ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171228043000 +0900" stop="20171228050000 +0900" channel="GR1_1024" event_id="31459" duration="1800">
+    <title lang="ja_JP">ＮＨＫニュース　おはよう日本</title>
+    <desc lang="ja_JP">▼国内外の最新ニュース　▼スポーツ情報　▼地域の課題や話題のリポート　▼日本と世界の気象情報</desc>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">定時・総合</category_middle>
+    <category_middle lang="en">Regular/General</category_middle>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">特集・ドキュメント</category_middle>
+    <category_middle lang="en">Special topic/documentary</category_middle>
+    <category lang="ja_JP">スポーツ</category>
+    <category lang="en">sports</category>
+    <category_middle lang="ja_JP">スポーツニュース</category_middle>
+    <category_middle lang="en">Sports news</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="1">
+       <desc>シングルモノ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171228050000 +0900" stop="20171228060000 +0900" channel="GR1_1024" event_id="31462" duration="3600">
+    <title lang="ja_JP">ＮＨＫニュース　おはよう日本</title>
+    <desc lang="ja_JP">▼国内外の最新ニュース　▼スポーツ情報　▼地域の課題や話題のリポート　▼まちかど情報室　▼気象情報</desc>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">定時・総合</category_middle>
+    <category_middle lang="en">Regular/General</category_middle>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">特集・ドキュメント</category_middle>
+    <category_middle lang="en">Special topic/documentary</category_middle>
+    <category lang="ja_JP">スポーツ</category>
+    <category lang="en">sports</category>
+    <category_middle lang="ja_JP">スポーツニュース</category_middle>
+    <category_middle lang="en">Sports news</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="1">
+       <desc>シングルモノ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171228060000 +0900" stop="20171228070003 +0900" channel="GR1_1024" event_id="31468" duration="3603">
+    <title lang="ja_JP">ＮＨＫニュース　おはよう日本</title>
+    <desc lang="ja_JP">▼国内外の最新ニュース　▼ここに注目！　▼経済情報　▼スポーツ情報　▼世界のメディアザッピング　▼まちかど情報室　▼気象情報</desc>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">定時・総合</category_middle>
+    <category_middle lang="en">Regular/General</category_middle>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">特集・ドキュメント</category_middle>
+    <category_middle lang="en">Special topic/documentary</category_middle>
+    <category lang="ja_JP">スポーツ</category>
+    <category lang="en">sports</category>
+    <category_middle lang="ja_JP">スポーツニュース</category_middle>
+    <category_middle lang="en">Sports news</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="1">
+       <desc>シングルモノ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171228070003 +0900" stop="20171228074500 +0900" channel="GR1_1024" event_id="31474" duration="2697">
+    <title lang="ja_JP">ＮＨＫニュース　おはよう日本【字】</title>
+    <desc lang="ja_JP">▼国内外の最新ニュース　▼世の中の動きを独自の視点で取材し伝える特集　▼スポーツ情報　▼気象情報　※番組内容は変更になる場合があります</desc>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">定時・総合</category_middle>
+    <category_middle lang="en">Regular/General</category_middle>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">特集・ドキュメント</category_middle>
+    <category_middle lang="en">Special topic/documentary</category_middle>
+    <category lang="ja_JP">スポーツ</category>
+    <category lang="en">sports</category>
+    <category_middle lang="ja_JP">スポーツニュース</category_middle>
+    <category_middle lang="en">Sports news</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="1">
+       <desc>シングルモノ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171228074500 +0900" stop="20171228080000 +0900" channel="GR1_1024" event_id="31475" duration="900">
+    <title lang="ja_JP">ＮＨＫニュース　おはよう日本【字】</title>
+    <desc lang="ja_JP">【キャスター】高瀬耕造，和久田麻由子，【気象キャスター】平井信行</desc>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">定時・総合</category_middle>
+    <category_middle lang="en">Regular/General</category_middle>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">ローカル・地域</category_middle>
+    <category_middle lang="en">Local</category_middle>
+    <category lang="ja_JP">ニュース／報道</category>
+    <category lang="en">news</category>
+    <category_middle lang="ja_JP">交通</category_middle>
+    <category_middle lang="en">Traffic</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="1">
+       <desc>シングルモノ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171228080000 +0900" stop="20171228081500 +0900" channel="GR1_1024" event_id="31477" duration="900">
+    <title lang="ja_JP">連続テレビ小説　わろてんか（７６）「エッサッサ乙女組」【解】【字】【デ】</title>
+    <desc lang="ja_JP">風太（濱田岳）の指導が始まったが、乙女組の面々はケンカばかりでまとまらない。てん（葵わかな）が彼女らと一緒に夕食を食べていると、息子・隼也の姿が見えなくなる。</desc>
+    <category lang="ja_JP">ドラマ</category>
+    <category lang="en">drama</category>
+    <category_middle lang="ja_JP">国内ドラマ</category_middle>
+    <category_middle lang="en">Japanese drama</category_middle>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc>日本語</extdesc>
+    </audio>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc>日本語（解説）</extdesc>
+    </audio>
+  </programme>
+  <programme start="20171228081500 +0900" stop="20171228095500 +0900" channel="GR1_1024" event_id="31478" duration="6000">
+    <title lang="ja_JP">あさイチ「あさイチ　２０１８トレンド大予測！」【字】</title>
+    <desc lang="ja_JP">あさイチ　２０１８トレンド大予測！▽出たトコ村「○○県○○村日本のどこか」（古原靖久）▽解決！ゴハン「ゆず手まりずし」【ゲスト】とろサーモン、吉田沙保里</desc>
+    <category lang="ja_JP">情報／ワイドショー</category>
+    <category lang="en">information</category>
+    <category_middle lang="ja_JP">暮らし・住まい</category_middle>
+    <category_middle lang="en">Life/residence</category_middle>
+    <category lang="ja_JP">情報／ワイドショー</category>
+    <category lang="en">information</category>
+    <category_middle lang="ja_JP">健康・医療</category_middle>
+    <category_middle lang="en">Health/medical care</category_middle>
+    <category lang="ja_JP">ドキュメンタリー／教養</category>
+    <category lang="en">documentary</category>
+    <category_middle lang="ja_JP">社会・時事</category_middle>
+    <category_middle lang="en">Social/topical news</category_middle>
+    <attachinfo>中断ニュースあり</attachinfo>
+    <freeCA>0</freeCA>
+    <video id="179">
+       <resolution>HD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+  <programme start="20171224041000 +0900" stop="20171224041300 +0900" channel="GR1_1025" event_id="29697" duration="180">
+    <title lang="ja_JP">青海チベット鉄道「貴重な野生動物」【字】</title>
+    <desc lang="ja_JP"></desc>
+    <category lang="ja_JP">ドキュメンタリー／教養</category>
+    <category lang="en">documentary</category>
+    <category_middle lang="ja_JP">歴史・紀行</category_middle>
+    <category_middle lang="en">History/travel</category_middle>
+    <freeCA>0</freeCA>
+    <video id="3">
+       <resolution>SD</resolution>
+       <aspect>16:9</aspect>
+    </video>
+    <audio id="3">
+       <desc>ステレオ</desc>
+       <lang>jpn</lang>
+       <extdesc></extdesc>
+    </audio>
+  </programme>
+</tv>
