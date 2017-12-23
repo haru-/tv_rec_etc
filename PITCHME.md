@@ -219,7 +219,7 @@ $ recpt1 --b25 27 10 ch27_10s.ts
 $ epgdump ch27_10s.ts ch27.xml
 $ epgdump json h27_10s.ts ch27.json
 ```
-XML
+
 +++?code=assets/epgdump/ch27_2017_1224_10s.xml
 XML
 
@@ -228,7 +228,36 @@ json
 
 ---
 
+### 録画したTSの処理
+
+---
+
 ### TsSplitter
+- 録画したファイルは MPEG-2 TS 形式
+- HD、 SD、 ワンセグ、EPG、字幕 等の様々な情報を含んでいる
+- 目的のビデオストリームとオーディオストリームのみを含んだMPEG-2 TSへ変換する
+
+- clean-ts 
+  - https://github.com/eagletmt/eagletmt-recutils/tree/master/clean-ts
+- tssplitter_lite
+  - http://hp.vector.co.jp/authors/VA038175/download/tssplitter_lite.zip
+- tss.py
+  - http://allegro.dtiblog.com/blog-entry-177.html
+  - http://project.pzfactory.org/blog/archives/112
+- TsSplitter.exe
+  - http://www3.wazoku.net/2sen/dtvup/
+  - http://www3.wazoku.net/2sen/dtvup/source/up0797.zip
++++
+
+```
+$ wine TsSplitter.exe -EIT -ECM  -EMM -SD -1SEG 4696-10-20171209-2200.ts
+$ ls -l 
+-rw-r--r-- 1 haru haru 3.7G 12月 10 14:45 4696-10-20171209-2200.m2t
+-rw-rw-r-- 1 haru haru 2.1G 12月 10 14:50 4696-10-20171209-2200_HD.m2t
+```
+- HDのみを取り出すとMXだと30分あたり 3.7GB が 2.1GB になる。
+- MX以外の局だと 2.7GB
+
 ---
 ### ffmpeg
 ---
