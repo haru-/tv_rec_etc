@@ -283,15 +283,14 @@ https://www.ffmpeg.org/
 $ ffmpeg -i 4696-10-20171209-2200_HD.m2t \
   -s 1920x1080 -aspect 16:9 -f mp4 \
   -vcodec libx264 -preset ultrafast -crf 22 -tune animation -vf yadif \
-  -acodec libfdk_aac -ac 2 -ar 48000 -ab 128k -async 100 \
+  -acodec libfdk_aac -ac 2 -ar 48000 -vbr 4 -async 100 \
   -ssim 1 4696-10-20171209-2200.mp4
 ```
 - -i 入力ファイル名
-- -ss 開始時間のオフセット
 - -s 出力解像度 1920x1080, 1280x720, 768x432, 640x360
 - -preset エンコード設定のプリセット ultrafast, superfast, veryfast, faster, fast, medium, slow, slower, veryslow, placebo
+- -crf エンコード品質 0-51の範囲で指定する
 - -tune 特定のソース向けのチューニング film, animation
-- -crf エンコード品質 0-51の範囲で指定する 標準は23
 - -vf ビデオフィルタ yadif はインターレース解除フィルタ
 
 +++
@@ -299,8 +298,15 @@ $ ffmpeg -i 4696-10-20171209-2200_HD.m2t \
 |プリセット|時間|サイズ|SSIM
 |:-------:|---:|----:|:-------:|
 |ultrafast|7:29|1.6GB|0.9856250|
+|superfast||||
+|veryfast||||
+|faster||||
+|fast||||
 |medium|26:02|840MB|0.9881622|
-|veryslow||
+|slow|||||
+|slower||||
+|veryslow||||
+|placebo||||
 
 ---
 ### assdumper
