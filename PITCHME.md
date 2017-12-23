@@ -38,7 +38,7 @@ https://www.amazon.co.jp/exec/obidos/ASIN/B007L05B88/
 <img src="https://images-na.ssl-images-amazon.com/images/I/41w9EwPfoWL.jpg" height="250">
 - インターフェース: USB
 - BS/CS 1ch
-- 8000円くらい。今年の2,3月位までは見かけたけど最近在庫なし
+- 8000円くらい。今年の夏前位までは見かけたけど最近在庫なし
 - 録画コマンドはrecdvb
 
 +++
@@ -46,7 +46,6 @@ https://www.amazon.co.jp/exec/obidos/ASIN/B007L05B88/
 https://www.amazon.co.jp/dp/B00C3TNA2G/
 
 <img src="https://images-na.ssl-images-amazon.com/images/I/51DO2s3LRoL._SX425_.jpg" height="250">
-
 - インターフェース: USB
 - 地上波/BS/CS 1ch
 - B-CASカード付属。ただしカードリーダーはLinuxでは使えないので別途用意する必要あり
