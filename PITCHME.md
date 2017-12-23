@@ -273,8 +273,9 @@ https://www.ffmpeg.org/
 +++
 
 ```
-$ ffmpeg -i 4696-10-20171209-2200_HD.m2t -ss 00:00:02.000 -s 1920x1080 -aspect 16:9 -f mp4 \
-  -vcodec libx264 -preset ultrafast -crf 22 -tune animation -vf yadif \
+$ ffmpeg -i 4696-10-20171209-2200_HD.m2t \
+  -ss 00:00:02.000 -s 1920x1080 -aspect 16:9 -f mp4 \
+  -vcodec libx264 -preset ultrafast -crf 22 -tune animation -vf yadif \
   -acodec libfdk_aac -ac 2 -ar 48000 -ab 128k -async 100 \
   -ssim 1 4696-10-20171209-2200_ultrafast_crf22_1920x1080.mp4
 ```
