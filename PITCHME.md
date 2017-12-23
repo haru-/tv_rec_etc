@@ -219,9 +219,12 @@ $ recpt1 --b25 27 10 ch27_10s.ts
 $ epgdump ch27_10s.ts ch27.xml
 $ epgdump json h27_10s.ts ch27.json
 ```
+XML
 +++?code=assets/epgdump/ch27_2017_1224_10s.xml
+XML
 
 +++?code=assets/epgdump/ch27_2017_1224_10s.json
+json
 
 ---
 
