@@ -106,11 +106,11 @@ https://www.b-cas.co.jp/cardorder/view/order/agreement.html
 ### ドライバ
 +++
 #### PT3
-chardev版
+##### chardev版
 
 https://github.com/m-tsudo/pt3
 
-DBV版
+##### DBV版
 
 Linux kernel 3.18 からカーネルのメインラインに組み込み済み。
 
