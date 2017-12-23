@@ -228,14 +228,14 @@ json
 
 ---
 
-### 録画したTSの処理
+### 録画したファイルの処理
 
 ---
 
 ### TsSplitter
 - 録画したファイルは MPEG-2 TS 形式
 - HD、 SD、 ワンセグ、EPG、字幕 等の様々な情報を含んでいる
-- 目的のビデオストリームとオーディオストリームのみを含んだMPEG-2 TSへ変換する
+- 目的のビデオストリームとオーディオストリームのみ取り出す
 
 +++ 
 - clean-ts 
@@ -248,10 +248,13 @@ json
 - TsSplitter.exe
   - http://www3.wazoku.net/2sen/dtvup/
   - http://www3.wazoku.net/2sen/dtvup/source/up0797.zip
+- BonTsDemuxC.exe
+  - http://www2.wazoku.net/2sen/friioup/
+  - http://www2.wazoku.net/2sen/friioup/source/up1091.zip
 +++
 
 ```
-$ wine TsSplitter.exe -EIT -ECM  -EMM -SD -1SEG 4696-10-20171209-2200.ts
+$ wine TsSplitter.exe -EIT -ECM -EMM -SD -1SEG 4696-10-20171209-2200.ts
 $ ls -l 
 -rw-r--r-- 1 haru haru 3.7G 12月 10 14:45 4696-10-20171209-2200.m2t
 -rw-rw-r-- 1 haru haru 2.1G 12月 10 14:50 4696-10-20171209-2200_HD.m2t
@@ -261,6 +264,8 @@ $ ls -l
 
 ---
 ### ffmpeg
+
+
 ---
 ### assdumper
 
