@@ -270,13 +270,21 @@ https://www.ffmpeg.org/
 
 録画したままのMPEG-2 TSだとファイルサイズが大きいので、MP4に変換してファイルサイズを小さくする
 
++++
+
 ```
-$ ffmpeg -i 4696-10-20171209-2200_HD.m2t -s 1920x1080 -f mp4 \
+$ ffmpeg -i 4696-10-20171209-2200_HD.m2t -ss 00:00:02.000 -s 1920x1080 -aspect 16:9 -f mp4 \
   -vcodec libx264 -preset ultrafast -crf 22 -tune animation -vf yadif \
   -acodec libfdk_aac -ac 2 -ar 48000 -ab 128k -async 100 \
-  -ssim 1 4696-10-20171209-2200_ultrafast_crf22_1920x1080.mp4;
+  -ssim 1 4696-10-20171209-2200_ultrafast_crf22_1920x1080.mp4
 ```
-
+- -i 入力ファイル名
+- -ss 開始時間のオフセット
+- -s 出力解像度 1920x1080, 1280x720, 768x432, 640x360
+- -preset エンコード設定のプリセット ultrafast, superfast, veryfast, faster, fast, medium, slow, slower, veryslow, placebo
+- -tune 特定のソース向けのチューニング-vf  film, animation
+- -crf エンコード品質 0-51の範囲で指定する 標準は23
+- -vf ビデオフィルタ yadif はインターレース解除フィルタ
 ---
 ### assdumper
 
