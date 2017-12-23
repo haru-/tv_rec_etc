@@ -189,27 +189,10 @@ VLCメディアプレイヤーでネットワークを開く http://host:8888/24
 
 <img src="assets/img/VLC _open_network.png" height="400">
 
-+++
++++?code=assets/playlist/dvb_playlist.m3u
+
 こんな感じのプレイリストを作って読み込むと、
-```dvb_playlist.m3u
-#EXTM3U
-#EXTINF:0,01.NHK総合
-http://192.168.1.17:8888/27
-#EXTINF:0,02.NHK Eテレ
-http://192.168.1.17:8888/26
-#EXTINF:0,03.日本テレビ
-http://192.168.1.17:8888/25
-#EXTINF:0,04.TBS
-http://192.168.1.17:8888/22
-#EXTINF:0,05.フジテレビ
-http://192.168.1.17:8888/21
-#EXTINF:0,06.TOKYO MX
-http://192.168.1.17:8888/16
-#EXTINF:0,07.テレビ朝日
-http://192.168.1.17:8888/24
-#EXTINF:0,08.テレビ東京
-http://192.168.1.17:8888/23
-```
+
 +++
 チャンネル変更のたびにURL打たなくて良いので楽。
 
@@ -236,6 +219,9 @@ $ recpt1 --b25 27 10 ch27_10s.ts
 $ epgdump ch27_10s.ts ch27.xml
 $ epgdump json h27_10s.ts ch27.json
 ```
++++?code=assets/epgdump/ch27_2017_1224_10s.xml
+
++++?code=assets/epgdump/ch27_2017_1224_10s.json
 
 ---
 
