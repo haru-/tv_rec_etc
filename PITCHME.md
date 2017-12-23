@@ -187,6 +187,8 @@ $ revdvb --b25 --http 8889
 ```
 VLCメディアプレイヤーでネットワークを開く http://host:8888/24
 
+Android、iOS版のVLCでも可。
+
 <img src="assets/img/VLC _open_network.png" height="400">
 
 +++?code=assets/playlist/dvb_playlist.m3u
@@ -207,9 +209,9 @@ https://github.com/Piro77/epgdump
 
 ```
 $ epgdump
-Usage : ./epgdump <tsFile> <outfile>
-Usage : ./epgdump csv  <tsFile> <outfile>
-Usage : ./epgdump json <tsFile> <outfile>
+Usage : epgdump <tsFile> <outfile>
+Usage : epgdump csv  <tsFile> <outfile>
+Usage : epgdump json <tsFile> <outfile>
 ```
 
 10秒くらい録画して、epgdumpで番組表を取り出す。
@@ -264,7 +266,16 @@ $ ls -l
 
 ---
 ### ffmpeg
+https://www.ffmpeg.org/
 
+録画したままのMPEG-2 TSだとファイルサイズが大きいので、MP4に変換してファイルサイズを小さくする
+
+```
+$ ffmpeg -i 4696-10-20171209-2200_HD.m2t -s 1920x1080 -f mp4 \
+  -vcodec libx264 -preset ultrafast -crf 22 -tune animation -vf yadif \
+  -acodec libfdk_aac -ac 2 -ar 48000 -ab 128k -async 100 \
+  -ssim 1 4696-10-20171209-2200_ultrafast_crf22_1920x1080.mp4;
+```
 
 ---
 ### assdumper
