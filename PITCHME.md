@@ -49,7 +49,7 @@ https://www.amazon.co.jp/dp/B00C3TNA2G/
 - インターフェース: USB
 - 地上波/BS/CS 1ch
 - B-CASカード付属。ただしカードリーダーはLinuxでは使えないので別途用意する必要あり
-- 7000円くらい。在庫無い事が多いけど月末付近に復活する
+- 7000円くらい。在庫が無い事が多いけど月末付近に復活する
 - 録画コマンドはrecfsusb2n
 
 +++
@@ -127,7 +127,7 @@ Linux kernel 4.7からカーネルのメインラインに組み込み済み。
 +++
 
 #### さんぱくん外出 US-3POUT
-udevルール書くだけでOK
+ユーザーをvideoグループに追加して、udevルール書けばOK
 ```
 # groupadd video
 # gpasswd -a [username] video
@@ -140,13 +140,13 @@ SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTRS{idVendor}=="0511", ATTRS{idP
 #### PX-W3U4
 http://www.plex-net.co.jp/product/px-w3u4/download.html
 
-+++
+---
 
 ### libarib25
 暗号化されている放送をB-CASカードを使って復号化するためのライブラリ
 https://github.com/stz2012/libarib25
 
-+++
+---
 
 ### 録画コマンド
 チューナー、ドライバによって録画コマンドが異なる。
@@ -218,6 +218,24 @@ http://192.168.1.17:8888/23
 ---
 
 ### epgdump
+番組表の抽出
+
+https://github.com/Piro77/epgdump
+
+```
+$ epgdump
+Usage : ./epgdump <tsFile> <outfile>
+Usage : ./epgdump csv  <tsFile> <outfile>
+Usage : ./epgdump json <tsFile> <outfile>
+```
+
+10秒くらい録画して、epgdumpで番組表を取り出す。
+xml、jsonで取り出せる。
+```
+$ recpt1 --b25 27 10 ch27_10s.ts
+$ epgdump ch27_10s.ts ch27.xml
+$ epgdump json h27_10s.ts ch27.json
+```
 
 ---
 
