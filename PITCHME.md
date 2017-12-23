@@ -22,6 +22,7 @@ https://www.amazon.co.jp//dp/B00857CQAM
 - 2016年3月までは1万円程度で買えた。プレミアが付いて現在は3万~円
 - ドライバはchardev版、DVB版がある
 - 録画コマンドはドラバによりrecpt1, recdvb
+
 +++
 #### PLEX PX-S1UD
 https://www.amazon.co.jp/dp/B0141NFWSG/
@@ -31,6 +32,7 @@ https://www.amazon.co.jp/dp/B0141NFWSG/
 - 地上波 1ch
 - 5000円くらい
 - 録画コマンドはrecdvb
+
 +++
 #### PLEX PX-BCUD
 https://www.amazon.co.jp/exec/obidos/ASIN/B007L05B88/
@@ -102,9 +104,13 @@ https://www.b-cas.co.jp/cardorder/view/order/agreement.html
 ---
 
 ## ソフトウェア
+
 ---
+
 ### ドライバ
+
 +++
+
 #### PT3
 ##### chardev版
 
@@ -137,6 +143,7 @@ SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTRS{idVendor}=="0511", ATTRS{idP
 ```
 
 +++
+
 #### PX-W3U4
 http://www.plex-net.co.jp/product/px-w3u4/download.html
 
@@ -274,18 +281,26 @@ https://www.ffmpeg.org/
 
 ```
 $ ffmpeg -i 4696-10-20171209-2200_HD.m2t \
-  -ss 00:00:02.000 -s 1920x1080 -aspect 16:9 -f mp4 \
+  -s 1920x1080 -aspect 16:9 -f mp4 \
   -vcodec libx264 -preset ultrafast -crf 22 -tune animation -vf yadif \
   -acodec libfdk_aac -ac 2 -ar 48000 -ab 128k -async 100 \
-  -ssim 1 4696-10-20171209-2200_ultrafast_crf22_1920x1080.mp4
+  -ssim 1 4696-10-20171209-2200.mp4
 ```
 - -i 入力ファイル名
 - -ss 開始時間のオフセット
 - -s 出力解像度 1920x1080, 1280x720, 768x432, 640x360
 - -preset エンコード設定のプリセット ultrafast, superfast, veryfast, faster, fast, medium, slow, slower, veryslow, placebo
-- -tune 特定のソース向けのチューニング-vf  film, animation
+- -tune 特定のソース向けのチューニング film, animation
 - -crf エンコード品質 0-51の範囲で指定する 標準は23
 - -vf ビデオフィルタ yadif はインターレース解除フィルタ
+
++++
+
+|プリセット|時間|サイズ|
+|ultrafast|7:29|1.6GB|
+|medium|26:02|840MB|
+|veryslow||
+
 ---
 ### assdumper
 
