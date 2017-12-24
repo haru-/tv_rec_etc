@@ -47,7 +47,7 @@ https://www.amazon.co.jp/exec/obidos/ASIN/B007L05B88/
 ### Digibest さんぱくん外出 US-3POUT
 https://www.amazon.co.jp/dp/B00C3TNA2G/
 
-<img src="https://images-na.ssl-images-amazon.com/images/I/51DO2s3LRoL._SX425_.jpg" height="250">
+<img src="https://images-na.ssl-images-amazon.com/images/I/51DO2s3LRoL._SX425_.jpg" height="200">
 - インターフェース: USB
 - 地上波/BS/CS 1ch
 - B-CASカード付属。ただしカードリーダーはLinuxでは使えないので別途用意する必要あり
