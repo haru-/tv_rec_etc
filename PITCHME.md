@@ -306,9 +306,9 @@ $ ffmpeg -i 4696-10-20171209-2200_HD.m2t \
 |fast|1920x1080|0:20:09|919MB|0.9883434|
 |medium|1920x1080|0:25:32|836MB|0.9881622|
 |slow|1920x1080|0:39:10|794MB|0.9880770|
-|slower|1920x1080|01:26:38|785MB|0.9882092|
-|veryslow|1920x1080|02:48:38|721MB|0.9878426|
-|placebo|1920x1080|06:19:18|735MB|0.9879642|
+|slower|1920x1080|1:26:38|785MB|0.9882092|
+|veryslow|1920x1080|2:48:38|721MB|0.9878426|
+|placebo|1920x1080|6:19:18|735MB|0.9879642|
 
 +++
 ###### 出力解像度毎のエンコード時間とファイルサイズ
@@ -320,6 +320,52 @@ $ ffmpeg -i 4696-10-20171209-2200_HD.m2t \
 |veryslow|640x360|0:14:43|141MB|0.98576910|
 
 ---
-### assdumper
+
+### 字幕
+#### assdumper
+https://github.com/eagletmt/eagletmt-recutils/tree/master/assdumper
 
 ---
+
+### CMカット
+#### Comskip
+https://github.com/erikkaashoek/Comskip
+
+---
+
+### 録画アプリケーション
+
++++
+#### epgrec UNA
+http://d.hatena.ne.jp/katauna/20141013/1413210756
+
+- 日経Linuxの記事で作られたやつのフォーク版
+
++++
+#### foltia
+http://www.dcc-jpl.com/soft/foltia/
+
+- アニメ録画特化
+- しょぼいカレンダー( http://cal.syoboi.jp/ )と連携して動く
+- 最近開発されてない模様。PHP7で動かない、文字コードがEUC-JP等今では使いにくい。
+- https://github.com/haru8/foltia 文字コードをUTF-8にしてPHP7でも動くようにしたやつ
+
++++
+#### foltia ANIME LOCKER
+https://foltia.com/ANILOC/
+
+- foltiaの有償版
+- アプリケーションではなく、CentOS6ベースのディストリビューションとして配布されているので、既存のサーバーには導入しにくい
+- gizazineに最近レビューが出てた https://gigazine.net/news/20171208-foltia-anime-locker/
+
++++
+#### Chinachu / Mirakurun
+https://chinachu.moe/
+https://github.com/Chinachu
+
+- nodeで動く
+- 多分最近一番活発
+- チューナーの抽象化サーバー(Mirakurun)と録画サーバー(Chinachu)の組み合わせ
+
+---
+
