@@ -196,6 +196,7 @@ Android、iOS版のVLCでも可。
 
 +++?code=assets/playlist/dvb_playlist.m3u
 `tv_channel.m3u`
+
 こんな感じのプレイリストを作って読み込むと、
 
 +++
