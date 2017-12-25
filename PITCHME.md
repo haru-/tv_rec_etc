@@ -348,15 +348,16 @@ http://www.dcc-jpl.com/soft/foltia/
 - アニメ録画特化
 - しょぼいカレンダー( http://cal.syoboi.jp/ )と連携して動く
 - 最近開発されてない模様。PHP7で動かない、文字コードがEUC-JP等今では使いにくい。
-- https://github.com/haru8/foltia 文字コードをUTF-8にしてPHP7でも動くようにしたやつ
-
+- 文字コードをUTF-8にしてPHP7でも動くようにしたやつ
+  - https://github.com/haru8/foltia 
 +++
 #### foltia ANIME LOCKER
 https://foltia.com/ANILOC/
 
 - foltiaの有償版
 - アプリケーションではなく、CentOS6ベースのディストリビューションとして配布されているので、既存のサーバーには導入しにくい
-- gizazineに最近レビューが出てた https://gigazine.net/news/20171208-foltia-anime-locker/
+- gizazineに最近レビューが出てた
+  - https://gigazine.net/news/20171208-foltia-anime-locker/
 
 +++
 #### Chinachu / Mirakurun
