@@ -186,7 +186,7 @@ $ recfsusb2n --b25 27 1800 ch27_1800.ts
 #### リアルタイム視聴
 ```
 $ recpt1 --b25 --http 8888
-$ revdvb --b25 --http 8889
+$ revdvb --b25 --http 8888
 ```
 VLCメディアプレイヤーでネットワークを開く http://host:8888/24
 
