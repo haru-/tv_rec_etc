@@ -195,7 +195,7 @@ Android、iOS版のVLCでも可。
 <img src="assets/img/VLC _open_network.png" height="350">
 
 +++?code=assets/playlist/dvb_playlist.m3u
-
+`tv_channel.m3u`
 こんな感じのプレイリストを作って読み込むと、
 
 +++
