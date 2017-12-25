@@ -189,9 +189,11 @@ $ recpt1 --b25 --http 8888
 $ revdvb --b25 --http 8889
 ```
 VLCメディアプレイヤーでネットワークを開く http://host:8888/24
+
 Android、iOS版のVLCでも可。
 
-<img src="assets/img/VLC _open_network.png" height="400">
+<img src="assets/img/VLC _open_network.png" height="350">
+
 +++?code=assets/playlist/dvb_playlist.m3u
 
 こんな感じのプレイリストを作って読み込むと、
