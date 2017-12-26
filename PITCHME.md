@@ -202,7 +202,7 @@ Android、iOS版のVLCでも可。
 +++
 チャンネル変更のたびにURL打たなくて良いので便利。
 
-<img src="assets/img/VLC _laylist.png" height="400">
+<img src="assets/img/VLC _laylist.png" height="430">
 
 ---
 
