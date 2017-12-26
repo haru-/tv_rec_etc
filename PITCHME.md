@@ -338,6 +338,16 @@ $ ffmpeg -i 4696-10-20171209-2200_HD.m2t \
 |veryslow|1280x720|29|0:40:09|163MB|0.9771507|
 |veryslow|1280x720|30||||
 
++++
+#### H.265
+```
+$ ffmpeg -i 4696-10-20171209-2200_HD.m2t \
+  -s 1920x1080 -aspect 16:9 -r 30000/1001 -f mp4 \
+  -vcodec libx265 -preset ultrafast -crf 22 -vf yadif \
+  -acodec libfdk_aac -ac 2 -ar 48000 -vbr 4 -async 100 \
+  -ssim 1 4696-10-20171209-2200.mp4
+```
+
 ---
 
 ### 字幕
