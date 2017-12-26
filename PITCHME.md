@@ -200,7 +200,7 @@ Android、iOS版のVLCでも可。
 こんな感じのプレイリストを作って読み込むと、
 
 +++
-チャンネル変更のたびにURL打たなくて良いので楽。
+チャンネル変更のたびにURL打たなくて良いので便利。
 
 <img src="assets/img/VLC _laylist.png" height="400">
 
