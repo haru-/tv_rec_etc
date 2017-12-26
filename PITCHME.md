@@ -413,6 +413,7 @@ https://github.com/Chinachu
 - PT3 × 2
 - PLEX PX-S1UD × 1
 
+***
 
 #### 消費電力と電気代
 - アイドル時: 40W前後
