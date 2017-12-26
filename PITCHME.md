@@ -387,20 +387,20 @@ http://www.dcc-jpl.com/soft/foltia/
 https://foltia.com/ANILOC/
 
 - foltiaの有償版
+- コンソールにほとんど触れずにWebだけで導入できるのでLinuxに不慣れな人に優しい
 - アプリケーションではなく、CentOS6ベースのディストリビューションとして配布されているので、既存のサーバーには導入しにくい
-- コンソールに殆ど触れずにWebだけで導入できるのでLinuxに不慣れな人に優しい
-- gizazineに最近レビューが出てた
+- gizazineのレビュー
   - https://gigazine.net/news/20171208-foltia-anime-locker/
 
 +++
 #### Chinachu / Mirakurun
-https://chinachu.moe/
-
 https://github.com/Chinachu
 
 - 最近一番活発
 - チューナーの抽象化サーバー(Mirakurun)と録画サーバー(Chinachu)の組み合わせ
 - node
+- Dockerでも行ける模様
+  - https://github.com/Chinachu/docker-mirakurun-chinachu
 
 ---
 
