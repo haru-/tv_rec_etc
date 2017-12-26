@@ -262,7 +262,7 @@ json
 ```
 $ wine TsSplitter.exe -EIT -ECM -EMM -SD -1SEG input.ts
 $ ls -l 
--rw-r--r-- 1 haru haru 3.7G 12月 10 14:45 input.ts
+-rw-rw-r-- 1 haru haru 3.7G 12月 10 14:45 input.ts
 -rw-rw-r-- 1 haru haru 2.1G 12月 10 14:50 input_HD.ts
 ```
 - HDのみを取り出すとMXだと30分あたり 3.7GB が 2.1GB になる。
