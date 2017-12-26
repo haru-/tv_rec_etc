@@ -260,10 +260,10 @@ json
 +++
 
 ```
-$ wine TsSplitter.exe -EIT -ECM -EMM -SD -1SEG 4696-10-20171209-2200.ts
+$ wine TsSplitter.exe -EIT -ECM -EMM -SD -1SEG input.ts
 $ ls -l 
--rw-r--r-- 1 haru haru 3.7G 12月 10 14:45 4696-10-20171209-2200.m2t
--rw-rw-r-- 1 haru haru 2.1G 12月 10 14:50 4696-10-20171209-2200_HD.m2t
+-rw-r--r-- 1 haru haru 3.7G 12月 10 14:45 input.ts
+-rw-rw-r-- 1 haru haru 2.1G 12月 10 14:50 input_HD.ts
 ```
 - HDのみを取り出すとMXだと30分あたり 3.7GB が 2.1GB になる。
 - MX以外の局だと 2.7GB
@@ -277,11 +277,11 @@ https://www.ffmpeg.org/
 +++
 #### H.264
 ```
-$ ffmpeg -i 4696-10-20171209-2200_HD.m2t \
+$ ffmpeg -i input.ts \
   -s 1920x1080 -aspect 16:9 -r 30000/1001 -f mp4 \
   -vcodec libx264 -preset ultrafast -crf 22 -tune animation -vf yadif \
   -acodec libfdk_aac -ac 2 -ar 48000 -vbr 4 -async 100 \
-  -ssim 1 4696-10-20171209-2200.mp4
+  -ssim 1 output.mp4
 ```
 - -i 入力ファイル名
 - -s 出力解像度 1920x1080, 1280x720, 768x432, 640x360
@@ -335,17 +335,15 @@ $ ffmpeg -i 4696-10-20171209-2200_HD.m2t \
 |veryslow|1280x720|26|0:44:50|223MB|0.9819973|
 |veryslow|1280x720|27|0:42:06|200MB|0.9805385|
 |veryslow|1280x720|28|0:40:34|181MB|0.9789239|
-|veryslow|1280x720|29|0:40:09|163MB|0.9771507|
-|veryslow|1280x720|30||||
 
 +++
 #### H.265
 ```
-$ ffmpeg -i 4696-10-20171209-2200_HD.m2t \
+$ ffmpeg -i input.ts \
   -s 1920x1080 -aspect 16:9 -r 30000/1001 -f mp4 \
   -vcodec libx265 -preset ultrafast -crf 22 -vf yadif \
   -acodec libfdk_aac -ac 2 -ar 48000 -vbr 4 -async 100 \
-  -ssim 1 4696-10-20171209-2200.mp4
+  -ssim 1 output.mp4
 ```
 
 ---
@@ -366,7 +364,9 @@ https://github.com/erikkaashoek/Comskip
 
 +++
 #### epgrec UNA
-http://d.hatena.ne.jp/katauna/20141013/1413210756
+http://d.hatena.ne.jp/katauna/
+
+http://tekinani.blogspot.jp/2011/09/blog-post.html
 
 - 日経Linuxの記事で作られたやつのフォーク版
 - PHP/Mysql
@@ -377,9 +377,11 @@ http://www.dcc-jpl.com/soft/foltia/
 
 - アニメ録画特化
 - しょぼいカレンダー( http://cal.syoboi.jp/ )と連携して動く
+- PHP,Perl/Postgres,SQLite
 - 最近開発されてない模様。PHP7で動かない、文字コードがEUC-JP等今では使いにくい。
 - 文字コードをUTF-8にしてPHP7でも動くようにしたやつ
   - https://github.com/haru8/foltia 
+
 +++
 #### foltia ANIME LOCKER
 https://foltia.com/ANILOC/
