@@ -407,9 +407,10 @@ https://github.com/Chinachu
 ### 電気代
 
 - CPU: Core i7 4770K
-- 3.5インチ HDD ×2
-- 2.5インチ SSD ×1
+- 3.5インチ HDD × 2
+- 2.5インチ SSD × 1
 - PT3 × 2
+- PLEX PX-S1UD × 1
 
 - アイドル時: 40W前後 |
 - エンコード中: 110W前後 |
